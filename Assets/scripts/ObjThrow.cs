@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ObjThrow : MonoBehaviour
 {
+    //https://www.youtube.com/watch?v=pPcYr3tL3Sc//
     public GameObject player;
     public Transform holdPos;
     public float throwForce = 500f; //force at which the object is thrown at
@@ -92,7 +93,7 @@ public class ObjThrow : MonoBehaviour
     }
     void RotateObject()
     {
-        if (Input.GetKey(KeyCode.R))//hold R key to rotate, change this to whatever key you want
+        if (Input.GetKey(KeyCode.T))//hold R key to rotate, change this to whatever key you want
         {
             canDrop = false; //make sure throwing can't occur during rotating
 
