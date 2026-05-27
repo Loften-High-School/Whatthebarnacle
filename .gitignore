@@ -74,5 +74,10 @@ crashlytics-build.properties
 [Aa]ssets/google-services-desktop.json
 
 # Temporary auto-generated Android Assets
+
+#Stupid ALP
+[Aa]ssets/ALP_[Aa]ssets/Realistic Terrain Textures Lite/Scenes/TerrainDATA/Terrain.[Aa]sset
+[Aa]ssets/ALP_[Aa]ssets/Realistic Terrain Textures Lite/Scenes/Ground001.tif
+[Aa]ssets/ALP_[Aa]ssets/Realistic Terrain Textures Lite/Scenes/Groun001_N.png
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
