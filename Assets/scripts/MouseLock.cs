@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MouseLock : MonoBehaviour
 {
-   /* bool locked;
+    bool locked;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -33,5 +33,5 @@ public class MouseLock : MonoBehaviour
                 Cursor.lockState = CursorLockMode.Locked;
             }
         }
-    } */
+    }
 }

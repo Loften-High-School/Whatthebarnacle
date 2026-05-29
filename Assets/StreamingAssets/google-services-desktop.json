@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "560780039558",
+    "project_id": "whatthebarnacle-a0bb3",
+    "storage_bucket": "whatthebarnacle-a0bb3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560780039558:android:91c162b2e2245fae26c807",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.Whatthebarnacle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzEJ5yYcQ_GOT4RAMifKHSuByVkOBMkVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

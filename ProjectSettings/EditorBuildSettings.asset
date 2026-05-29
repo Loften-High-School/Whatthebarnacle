@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/WigmunnsDungeon.unity
+    path: Assets/Scenes/wg.unity
     guid: 1c636427d947c49f1b2861939aaec43b
   - enabled: 1
     path: Assets/Scenes/TextScene.unity

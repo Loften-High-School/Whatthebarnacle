@@ -256,6 +256,17 @@
                 },
                 {
                     "name": "",
+                    "id": "e9c6b2eb-782d-4bc4-aa9f-5985c005ac4a",
+                    "path": "<HID::Logitech Logitech Dual Action>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Joystick",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "143bb1cd-cc10-4eca-a2f0-a3664166fe91",
                     "path": "<Gamepad>/buttonWest",
                     "interactions": "",
@@ -378,7 +389,7 @@
                 {
                     "name": "",
                     "id": "d8bf24bf-3f2f-4160-a97c-38ec1eb520ba",
-                    "path": "<XRController>/trigger",
+                    "path": "<HID::Logitech Logitech Dual Action>/trigger",
                     "interactions": "",
                     "processors": "",
                     "groups": "XR",
@@ -481,6 +492,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
+                    "action": "Crouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aedc08ba-d145-458f-9316-5c6a222c1328",
+                    "path": "<HID::Logitech Logitech Dual Action>/hat/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Joystick",
                     "action": "Crouch",
                     "isComposite": false,
                     "isPartOfComposite": false
