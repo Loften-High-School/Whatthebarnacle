@@ -96,16 +96,6 @@ public class WaterTap : MonoBehaviour
             isClosed = true;
             RunningWater.Stop();
         }  
-
-         if (inReach && isClosed && Input.GetButtonDown("PickUp"))
-        {
-            Tap.Setbool("Open", true);
-            Tap.Setbool("Closed", false);
-            openText.SetActive(false);
-            isOpen = true;
-            isClosed = false;
-            RunningWater.Play();
-        }
     }
     
 }
