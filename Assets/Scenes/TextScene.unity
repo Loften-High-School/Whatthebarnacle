@@ -780,7 +780,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1099911839}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1579326059}
+        m_TargetAssemblyTypeName: TrueGame, Assembly-CSharp
+        m_MethodName: OnSTartClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1099911839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -832,6 +844,7 @@ GameObject:
   - component: {fileID: 1579326055}
   - component: {fileID: 1579326054}
   - component: {fileID: 1579326058}
+  - component: {fileID: 1579326059}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -935,6 +948,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a82515e27564b4fa992c34cbdc335e34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Wigmunn
+--- !u!114 &1579326059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579326053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc7d23c9613f4f669ad71689e991682, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrueGame
 --- !u!1 &2104746095
 GameObject:
   m_ObjectHideFlags: 0

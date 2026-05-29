@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Editor Default Resources.meta
+guid: a47cebba1222f45599ca7394506ee913
+folderAsset: yes
+========
 guid: a3a9f5ead07254100b0450503d4abaf2
+>>>>>>>> parent of effe5f3 (mats):Assets/Scenes/Test.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
