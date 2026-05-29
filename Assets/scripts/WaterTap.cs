@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class WaterTap : MonoBehaviour
 {
-
+    public Animation Tap;
     public GameObject openText;
     public GameObject closeText;
 
@@ -15,7 +15,7 @@ public class WaterTap : MonoBehaviour
    public void ReachSet(bool inUse)
    {
 
-        if (inUser)
+        if (inUse)
         {
             if (isClosed)
             {
@@ -64,7 +64,7 @@ public class WaterTap : MonoBehaviour
            if (hit.collider.CompareTag("interactable") && hit.distance <= 2.5f)
            {
               ReachSet(true);
-              Debug.log("Object is interactable");
+              Debug.Log("Object is interactable");
            }
            else
            {
@@ -79,7 +79,7 @@ public class WaterTap : MonoBehaviour
 
         if (inReach && isClosed && Input.GetButtonDown("Interact"))
         {
-            Tap.Setbool("Open", true);
+           Tap.Setbool("Open", true);
             Tap.Setbool("Closed", false);
             openText.SetActive(false);
             isOpen = true;
@@ -89,7 +89,7 @@ public class WaterTap : MonoBehaviour
 
         else if (inReach && isOpen && Input.GetButtonDown("Interact"))  
         {
-            Tap.Setbool("Open", false);
+           Tap.Setbool("Open", false);
             Tap.Setbool("Closed", true);
             closeText.SetActive(false);
             isOpen = false;
